@@ -1,0 +1,37 @@
+.frontpage-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/index.png");
+    background-size: cover;
+    
+}
+
+.sale-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 15% 10% 15%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale-col{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 300px;
+    padding: 0 1% 0 1%;
+}
+
+.sale-col img{
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.sale-buttons{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+.logo {
+  font-family: "Poiret One" !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  text-decoration: none !important;
+}
+
+nav p{
+  margin-top: 8px;
+}

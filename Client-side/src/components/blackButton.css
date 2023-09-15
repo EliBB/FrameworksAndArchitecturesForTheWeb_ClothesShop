@@ -1,0 +1,12 @@
+.black-button {
+    width: 158px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: black;
+    cursor: pointer;
+}
+
+.black-button-text{
+    color: white !important;
+    margin-top: 6px;
+}

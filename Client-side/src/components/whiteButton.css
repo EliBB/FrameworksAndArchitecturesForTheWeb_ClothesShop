@@ -1,0 +1,11 @@
+.white-button {
+    width: 158px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: white;
+    cursor: pointer;
+}
+
+.white-button-text{
+    margin-top: 6px;
+}

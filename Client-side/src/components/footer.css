@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 15% 3% 15%;
+    flex-wrap: wrap;
+  }
+  
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
