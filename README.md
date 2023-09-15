@@ -1,1 +1,6 @@
 # FrameworksAndArchitecturesForTheWeb_ClothesShop
+This project contains a client-side web application for online shopping, and a server-side RESTful web service, which supports the client-side application.
+The web shop enables customers to browse and shop for clothes. The products fit into the product categories: Men/Women and Tops/Bottoms.
+The customer can see more details of all the offered products, just as the customer can add a product to the basket from the product overview or product page, and products in the basket can the removed. If the customer creates a profile, the registered name of the profile is displayed on the navigation bar and in the basket. When a customer registers, the first name, last name, e-mail and password are validated (with simple requirements), and the customer can successfully continue shopping if the data is valid.
+For this project, different Bootstrap components have been implemented along with properties of Flexbox to make the site responsive.
+The server-side of the application is a RESTful API which consists of endpoints that support the clientside application. The API is developed in JavaScript using Node.js and Express framework and structures data following the JSON data format, for the purposes of communicating data back and forth. 
