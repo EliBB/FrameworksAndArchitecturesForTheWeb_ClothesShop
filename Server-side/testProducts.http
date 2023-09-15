@@ -1,0 +1,32 @@
+
+// get all products
+GET http://localhost:3000/products HTTP/1.1
+
+###
+
+// get product by id
+GET http://localhost:3000/products/1 HTTP/1.1
+
+### 
+
+// get all categories
+GET http://localhost:3000/products/categories/category HTTP/1.1
+
+###
+
+// get products by category
+GET http://localhost:3000/products/category/women HTTP/1.1
+
+###
+GET http://localhost:3000/products/category/men HTTP/1.1
+
+###
+//get products by category and type
+GET http://localhost:3000/products/category/women/type/bottoms HTTP/1.1
+###
+GET http://localhost:3000/products/category/women/type/tops HTTP/1.1
+
+###
+GET http://localhost:3000/products/category/men/type/bottoms HTTP/1.1
+###
+GET http://localhost:3000/products/category/men/type/tops HTTP/1.1

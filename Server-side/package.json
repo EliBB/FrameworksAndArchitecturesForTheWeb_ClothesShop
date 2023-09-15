@@ -1,0 +1,21 @@
+{
+  "name": "frameworks-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node applicationAPI.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.itu.dk/lube/Frameworks-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
